@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ViewPager2 para la galería de imágenes -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewSlider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nombre -->
+        <TextView
+            android:id="@+id/textViewPetNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <!-- Tipo -->
+        <TextView
+            android:id="@+id/textViewPetType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Raza -->
+        <TextView
+            android:id="@+id/textViewPetBreed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raza: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Edad -->
+        <TextView
+            android:id="@+id/textViewPetAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Personalidad -->
+        <TextView
+            android:id="@+id/textViewPetPersonality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personalidad: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Peso -->
+        <TextView
+            android:id="@+id/textViewPetWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Altura -->
+        <TextView
+            android:id="@+id/textViewPetHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altura: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Comida favorita -->
+        <TextView
+            android:id="@+id/textViewPetFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comida favorita: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Protectora -->
+        <TextView
+            android:id="@+id/textViewPetProtectora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protectora:"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonAdopt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adoptar"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagen de la protectora -->
+        <ImageView
+            android:id="@+id/imageViewProtectoraDetail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop" />
+
+        <!-- Nombre de la protectora -->
+        <TextView
+            android:id="@+id/textViewProtectoraNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Protectora"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Descripción de la protectora -->
+        <TextView
+            android:id="@+id/textViewProtectoraDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción de la protectora"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Texto "Ven a buscarnos" -->
+        <TextView
+            android:id="@+id/textViewFindUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ven a buscarnos"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Mapa de la protectora -->
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

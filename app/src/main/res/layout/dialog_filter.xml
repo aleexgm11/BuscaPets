@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Nombre (Name) -->
+        <TextView
+            android:id="@+id/textViewFilterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextFilterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa el nombre"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Tipo de Animal (Animal Type) -->
+        <TextView
+            android:id="@+id/textViewFilterAnimalType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Animal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spinnerFilterAnimalType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Raza (Race) -->
+        <TextView
+            android:id="@+id/textViewFilterRace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raza"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextFilterRace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa la raza"
+            android:inputType="text"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Edad (Age) -->
+        <TextView
+            android:id="@+id/textViewFilterAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextFilterAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa la edad"
+            android:inputType="number"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Personalidad (Personality) -->
+        <TextView
+            android:id="@+id/textViewFilterPersonality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personalidad"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spinnerFilterPersonality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background" />
+
+    </LinearLayout>
+</ScrollView>

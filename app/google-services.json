@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853659244383",
+    "project_id": "buscapet-9e045",
+    "storage_bucket": "buscapet-9e045.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853659244383:android:0deb09e17bd4b0934988ea",
+        "android_client_info": {
+          "package_name": "com.grupo6.buscapets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0-pKpB_M8dRzcwaw7AcKJc67C23Wd0UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

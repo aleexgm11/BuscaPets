@@ -1,0 +1,5 @@
+Firulais;Perro;Labrador;2;Amigable;firulais;20kg;50cm;Croquetas;Protectora Huellas Felices
+Misu;Gato;Siamés;3;Tranquilo;misu;5kg;25cm;Pescado;Centro de Adopción Gatitos Felices
+Luna;Perro;Beagle;1;Juguetón;luna;15kg;45cm;Pollo;Refugio Canino Esperanza
+Pelusa;Gato;Persa;4;Cariñoso;pelusa;6kg;30cm;Atún;Fundación Manos Amigas
+Tornillo;Gato;Abisinio;10;Cercano a la gente;tornillo;5kg;40cm;Pienso;Refugio para Mascotas Mil Amores

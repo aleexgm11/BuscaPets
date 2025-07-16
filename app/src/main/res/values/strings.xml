@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">BuscaPets</string>
+    <string name="nombreAnimal">Nombre del Animal</string>
+    <string name="raza">Raza:</string>
+    <string name="edad">Edad:</string>
+    <string name="personalidad">Personalidad:</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="comida_favorita">Comida favorita:</string>
+    <string name="imagen_de_la_mascota">Imagen de la mascota</string>
+    <string name="usuario">Usuario</string>
+    <string name="buscapets">BuscaPets</string>
+    <string name="inicio">Inicio</string>
+    <string name="protectoras">Protectoras</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_usuario">Protectoras</string>
+    <string name="title_protectoras">Usuario</string>
+    <string name="profile_picture">Profile Picture</string>
+
+    <!-- Tipos de Animal -->
+    <string-array name="animal_types">
+        <item>Todos</item> <!-- Opción para no filtrar por tipo -->
+        <item>Perro</item>
+        <item>Gato</item>
+    </string-array>
+
+    <!-- Personalidades existentes -->
+    <string-array name="personality_types">
+        <item>Todos</item> <!-- Opción para no filtrar por personalidad -->
+        <item>Amigable</item>
+        <item>Tranquilo</item>
+        <item>Juguetón</item>
+        <item>Cariñoso</item>
+        <item>Cercano a las personas</item>
+    </string-array>
+
+    <!-- Opciones de Raza para Perros -->
+    <string-array name="breed_dog">
+        <item>Todos</item> <!-- Opción para no filtrar por raza -->
+        <item>Labrador</item>
+        <item>Beagle</item>
+        <item>Bulldog</item>
+        <item>Pastor Alemán</item>
+        <!-- Añade más razas de perros aquí -->
+    </string-array>
+
+    <!-- Opciones de Raza para Gatos -->
+    <string-array name="breed_cat">
+        <item>Todos</item> <!-- Opción para no filtrar por raza -->
+        <item>Siamés</item>
+        <item>Persa</item>
+        <item>Maine Coon</item>
+        <item>Abisinio</item>
+        <!-- Añade más razas de gatos aquí -->
+    </string-array>
+
+    <!-- Título del filtro -->
+    <string name="filter_title">Filtros</string>
+    <string name="filter">Filtrar</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="email">Email</string>
+
+    <!-- Strings formularios-->
+    <string name="pregunta_actividad">¿Qué tipo de actividad te gusta realizar con una mascota?</string>
+    <string name="formulario_afinidad">Formulario de Afinidad para Adopción</string>
+    <string name="sugerencia_actividad">Pasear, jugar, descansar</string>
+    <string name="pregunta_tipo_mascotas">¿Que tipo de mascotuas prefieres?</string>
+    <string name="sugerencia_tipos">Activas, tranquilas, cariñosas</string>
+    <string name="pregunta_experiencia">¿Tienes experiencia previa con mascotas?</string>
+    <string name="sugerencia_experiencia">Sí, tengo experiencia; No, sería mi primera vez</string>
+    <string name="pregunta_espacio">¿Qué espacio tienes disponible para la mascota?</string>
+    <string name="sugerencia_espacio">Casa con jardín, apartamento pequeño</string>
+    <string name="enviar_solicitud">Enviar Solicitud</string>
+
+    <!-- Strings protectoras-->
+    <string-array name="shelter_names">
+        <item>Protectora Huellas Felices</item>
+        <item>Refugio Canino Esperanza</item>
+        <item>Centro de Adopción Gatitos Felices</item>
+        <item>Fundación Manos Amigas</item>
+        <item>Protectora Ángeles Peludos</item>
+        <item>Hogar Temporal Patitas de Amor</item>
+        <item>Asociación Salvemos Huellitas</item>
+        <item>Refugio para Mascotas Mil Amores</item>
+    </string-array>
+
+</resources>
