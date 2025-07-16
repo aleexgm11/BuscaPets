@@ -24,7 +24,7 @@ The app uses the **Google Maps SDK for Android** to:
 ## 🚀 How to run the app
 1. Clone the repository:
 ```bash
-   git clone https://github.com/tuusuario/petfinder.git
+   git clone https://github.com/aleexgm11/BuscaPets.git
 ```
 2. Open the project with Android Studio.
 3. Configure the Google Maps key in the google_maps_api.xml file.
